@@ -8,6 +8,7 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
+import { console } from 'inspector/promises';
 
 export async function fetchRevenue() {
   try {
